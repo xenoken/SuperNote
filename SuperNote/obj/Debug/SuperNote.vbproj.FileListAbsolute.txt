@@ -1,0 +1,17 @@
+c:\users\ken\documents\visual studio 2015\Projects\SuperNote\SuperNote\obj\Debug\MainWindow.g.vb
+c:\users\ken\documents\visual studio 2015\Projects\SuperNote\SuperNote\obj\Debug\Application.g.vb
+c:\users\ken\documents\visual studio 2015\Projects\SuperNote\SuperNote\obj\Debug\SuperNote_MarkupCompile.cache
+c:\users\ken\documents\visual studio 2015\Projects\SuperNote\SuperNote\obj\Debug\SuperNote_MarkupCompile.lref
+c:\users\ken\documents\visual studio 2015\Projects\SuperNote\SuperNote\obj\Debug\SuperNote.xml
+c:\users\ken\documents\visual studio 2015\Projects\SuperNote\SuperNote\bin\Debug\SuperNote.exe
+c:\users\ken\documents\visual studio 2015\Projects\SuperNote\SuperNote\bin\Debug\SuperNote.pdb
+c:\users\ken\documents\visual studio 2015\Projects\SuperNote\SuperNote\bin\Debug\SuperNote.xml
+c:\users\ken\documents\visual studio 2015\Projects\SuperNote\SuperNote\obj\Debug\MainWindow.baml
+c:\users\ken\documents\visual studio 2015\Projects\SuperNote\SuperNote\obj\Debug\SuperNote.g.resources
+c:\users\ken\documents\visual studio 2015\Projects\SuperNote\SuperNote\obj\Debug\SuperNote.Resources.resources
+c:\users\ken\documents\visual studio 2015\Projects\SuperNote\SuperNote\obj\Debug\SuperNote.vbproj.GenerateResource.Cache
+c:\users\ken\documents\visual studio 2015\Projects\SuperNote\SuperNote\obj\Debug\SuperNote.exe
+c:\users\ken\documents\visual studio 2015\Projects\SuperNote\SuperNote\obj\Debug\SuperNote.pdb
+C:\Users\Ken\Documents\Visual Studio 2015\Projects\SuperNote\SuperNote\obj\Debug\controls\NoteWidget.g.vb
+C:\Users\Ken\Documents\Visual Studio 2015\Projects\SuperNote\SuperNote\obj\Debug\controls\NoteWidget.baml
+C:\Users\Ken\Documents\Visual Studio 2015\Projects\SuperNote\SuperNote\obj\Debug\SuperNote.vbprojResolveAssemblyReference.cache

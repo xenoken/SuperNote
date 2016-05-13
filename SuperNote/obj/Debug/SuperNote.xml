@@ -1,0 +1,130 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SuperNote
+</name>
+</assembly>
+<members>
+<member name="M:SuperNote.NoteSlot.AddWidget(SuperNote.NoteWidget,SuperNote.EDockDirection)">
+ <summary>
+ Update coherently the widgets list.
+ </summary>
+ <param name="newwidget"></param>
+ <param name="dockdir"></param>
+ <returns></returns>
+</member>
+<member name="M:SuperNote.NoteSlot.Dock(SuperNote.NoteWidget,SuperNote.NoteWidget,SuperNote.EDockDirection)">
+ <summary>
+ handles the possibilty to add a widget as a sibling of another.
+ </summary>
+ <param name="target"></param>
+ <param name="requester"></param>
+ <param name="dockdir"></param>
+</member>
+<member name="M:SuperNote.NoteSlot.DeserializeSlot(SuperNote.NoteSlot,System.String)">
+ <summary>
+ 
+ </summary>
+ <param name="targetSlot">the root to which attach all the deserialized widgets. Should be the NULL if the We intended to return a Root Objects.</param>
+ <param name="path"></param>
+ <returns></returns>
+</member>
+<member name="T:SuperNote.NoteWidget">
+<summary>
+NoteWidget
+</summary>
+</member>
+<member name="M:SuperNote.NoteWidget.CopyPropertiesToWidget(SuperNote.NoteWidget,System.Boolean)">
+ <summary>
+ Copies Foreground Color, Background Color, Frame Color and Lock State to another widget.
+ </summary>
+ <param name="copyContent">Optionally it is possible to copy the text of the widget to the other widget.</param>
+ <returns></returns>
+</member>
+<member name="M:SuperNote.NoteWidget.GetContentAsString">
+ <summary>
+ 
+ </summary>
+ <returns>Da usare con cautela e solo quando necessario. e.g. Serializzazione a Disco.</returns>
+</member>
+<member name="M:SuperNote.NoteWidget.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:SuperNote.Application">
+<summary>
+Application
+</summary>
+</member>
+<member name="M:SuperNote.Application.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:SuperNote.Application.Main">
+<summary>
+Application Entry Point.
+</summary>
+</member>
+<member name="T:SuperNote.MainWindow">
+<summary>
+MainWindow
+</summary>
+</member>
+<member name="M:SuperNote.MainWindow.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:SuperNote.My.MyWpfExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:SuperNote.My.MyWpfExtension.Application">
+ <summary>
+ Returns the application object for the running application
+ </summary>
+</member>
+<member name="P:SuperNote.My.MyWpfExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:SuperNote.My.MyWpfExtension.User">
+ <summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member>
+<member name="P:SuperNote.My.MyWpfExtension.Log">
+ <summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member>
+<member name="P:SuperNote.My.MyWpfExtension.Windows">
+ <summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member>
+<member name="T:SuperNote.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SuperNote.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SuperNote.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+</members>
+</doc>

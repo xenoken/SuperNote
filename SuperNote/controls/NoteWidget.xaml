@@ -1,0 +1,80 @@
+﻿<UserControl x:Class="NoteWidget"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SuperNote"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+
+    <Grid x:Name="nwmainframe" SnapsToDevicePixels="True">
+        <Grid.ContextMenu>
+            <ContextMenu x:Name="cmenu_main_frame">
+                <MenuItem Header="Split" x:Name="cmnu_split" Click="cmnu_split_Click">
+                    <MenuItem Header="Left" x:Name="cmenu_split_l" Click="cmenu_split_l_Click"/>
+                    <MenuItem Header="Up" x:Name="cmenu_split_u" Click="cmenu_split_u_Click"/>
+                    <MenuItem Header="Right" x:Name="cmenu_split_r" Click="cmenu_split_r_Click"/>
+                    <MenuItem Header="Down" x:Name="cmenu_split_d" Click="cmenu_split_d_Click"/>
+                </MenuItem>
+                <Separator/>
+                <MenuItem Header="Lock Text" IsCheckable="True" IsChecked="False"  x:Name="cmenu_toggle_lock_text" Click="cmenu_toggle_lock_text_Click"/>
+                <Separator/>
+                <MenuItem Header="Change Frame Color" x:Name="cmenu_change_color" Click="cmenu_change_color_Click"/>
+                <Separator/>
+                <MenuItem Header="Move" x:Name="cmenu_move" Click="cmenu_move_Click"></MenuItem>
+                <Separator/>
+                <MenuItem Header="Dock" x:Name="cmnu_dock">
+                    <MenuItem Header="Left" x:Name="cmenu_dock_l" Click="cmenu_dock_l_Click"/>
+                    <MenuItem Header="Up" x:Name="cmenu_dock_u" Click="cmenu_dock_u_Click"/>
+                    <MenuItem Header="Right" x:Name="cmenu_dock_r" Click="cmenu_dock_r_Click"/>
+                    <MenuItem Header="Down" x:Name="cmenu_dock_d" Click="cmenu_dock_d_Click"/>
+                </MenuItem>
+                <Separator/>
+                <MenuItem Header="Close" x:Name="cemnu_close" Click="cemnu_close_Click"/>
+            </ContextMenu>
+        </Grid.ContextMenu>
+        <Grid x:Name="nwframe">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Border Margin="10" Grid.Row="1" BorderThickness="1" BorderBrush="#7F362F2F" >
+                <RichTextBox x:Name="nwcontent"  BorderThickness="0" FontSize="12" VerticalScrollBarVisibility="Auto">
+                    <FlowDocument>
+                    <Paragraph>
+                        <Run Text=""/>
+                    </Paragraph>
+                </FlowDocument>
+            </RichTextBox>
+            </Border>
+            <Grid Margin="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75*"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="lbl_toggle_lock_flag" Margin="2,0,2,2" Content="q" Tag="n"
+                       FontFamily="Modern%20Pictograms" Foreground="White"
+                       HorizontalContentAlignment="Center" VerticalContentAlignment="Center" 
+                       Padding="2,0,2,5" Grid.Column="1" HorizontalAlignment="Stretch" 
+                       VerticalAlignment="Stretch" MouseUp="lbl_toggle_lock_flag_MouseUp" FontSize="16">
+                    
+                </Label>
+                <Label x:Name="lbl_move_flag" Margin="2,0,2,2" Content="o" Tag="1"
+                       FontFamily="Modern%20Pictograms" Foreground="White"
+                       HorizontalContentAlignment="Center" VerticalContentAlignment="Top" 
+                       Padding="2,0,2,5" Grid.Column="2" HorizontalAlignment="Stretch" 
+                       VerticalAlignment="Stretch" MouseUp="lbl_move_flag_MouseUp" FontSize="16">
+                </Label>
+                <Label x:Name="btn_close" Margin="2,0,2,2" Content="X" Tag="n"
+                       FontFamily="Modern%20Pictograms" Foreground="White"
+                       HorizontalContentAlignment="Center" VerticalContentAlignment="Center" 
+                       Padding="2,0,2,5" Grid.Column="3" HorizontalAlignment="Stretch" 
+                       VerticalAlignment="Stretch" MouseUp="btn_close_MouseUp" FontSize="16" >
+                </Label>
+            </Grid>
+
+        </Grid>
+    </Grid>
+</UserControl>
