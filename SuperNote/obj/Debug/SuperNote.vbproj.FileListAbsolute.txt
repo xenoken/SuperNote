@@ -15,3 +15,10 @@ c:\users\ken\documents\visual studio 2015\Projects\SuperNote\SuperNote\obj\Debug
 C:\Users\Ken\Documents\Visual Studio 2015\Projects\SuperNote\SuperNote\obj\Debug\controls\NoteWidget.g.vb
 C:\Users\Ken\Documents\Visual Studio 2015\Projects\SuperNote\SuperNote\obj\Debug\controls\NoteWidget.baml
 C:\Users\Ken\Documents\Visual Studio 2015\Projects\SuperNote\SuperNote\obj\Debug\SuperNote.vbprojResolveAssemblyReference.cache
+C:\Ken\github\xenoken\SuperNote\supernote\obj\Debug\SuperNote.vbproj.AssemblyReference.cache
+C:\Ken\github\xenoken\SuperNote\supernote\obj\Debug\SuperNote.Resources.resources
+C:\Ken\github\xenoken\SuperNote\supernote\obj\Debug\SuperNote.vbproj.GenerateResource.cache
+C:\Ken\github\xenoken\SuperNote\supernote\obj\Debug\SuperNote.vbproj.CoreCompileInputs.cache
+C:\Ken\github\xenoken\SuperNote\supernote\obj\Debug\SuperNote.exe
+C:\Ken\github\xenoken\SuperNote\supernote\obj\Debug\SuperNote.xml
+C:\Ken\github\xenoken\SuperNote\supernote\obj\Debug\SuperNote.pdb
